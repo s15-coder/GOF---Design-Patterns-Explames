@@ -7,7 +7,7 @@ class Friend {
   Friend(this.person);
   void seeActionsOfPerson() {
     Action action = person.getAction();
-    action.showFeeling();
+    action.doAction();
   }
 
   void meetFeelingsOfPerson() {

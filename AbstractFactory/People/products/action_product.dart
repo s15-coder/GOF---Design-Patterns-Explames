@@ -4,7 +4,7 @@ abstract class Action {
     this._name = name;
   }
 
-  void showFeeling() {
+  void doAction() {
     print('This person ${this._name}');
   }
 }
